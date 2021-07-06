@@ -3,10 +3,29 @@
 `npm install`
 `npm i multer`
 
-FIX HEADER NAME -- was "HOT DOG NOT HOT DOG... etc"
+***IN HEROKU: MUST INCLUDE CONFIG VARS!!! There will be a handfull of KEYS and VALUES such as:
+CLOUD_NAME
+CLOUD_API_KEY
+MS_COMPUTER_VISION_SUBSCRIPTION_KEY
+etc...
+include all of them!
 
-****must change to URL friendly header such as: 'hotdognothotdog'****
+****IN HEROKU: make sure under DEPLOY to change to proper URL
+
+
+***FIX HEADER NAME -- was "HOT DOG NOT HOT DOG... etc"
+
+****must change to URL friendly header such as: 'hotdognothotdog'
+
+****add node version to package.json (place underneath "version": "1.0.0",) would look like this below:
+
+"engines": {
+    "node": "14.11.1"
+  },
+
 ---
+
+
 
 # Things to add
 
