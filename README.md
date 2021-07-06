@@ -1,7 +1,7 @@
 # Install
 
 `npm install`
-
+`npm i multer`
 ---
 
 # Things to add
