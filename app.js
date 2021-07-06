@@ -106,4 +106,7 @@ app.post("/", upload.single("file-to-upload"), async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 8000);
+// app.listen(process.env.PORT || 8000);
+app.listen(process.env.PORT || 8000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
