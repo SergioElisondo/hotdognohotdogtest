@@ -1,6 +1,9 @@
 {
   "name": "Hot Dog Not Hot Dog - Educational Example",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.17.3"
+  },
   "description": "",
   "main": "app.js",
   "scripts": {
