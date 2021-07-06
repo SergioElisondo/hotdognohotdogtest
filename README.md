@@ -2,6 +2,10 @@
 
 `npm install`
 `npm i multer`
+
+FIX HEADER NAME -- was "HOT DOG NOT HOT DOG... etc"
+
+****must change to URL friendly header such as: 'hotdognothotdog'****
 ---
 
 # Things to add
