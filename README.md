@@ -2,6 +2,7 @@
 
 `npm install`
 `npm i multer`
+`npm i axios`
 
 ***IN HEROKU: MUST INCLUDE CONFIG VARS!!! There will be a handfull of KEYS and VALUES such as:
 CLOUD_NAME
